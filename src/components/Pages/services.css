@@ -1,0 +1,182 @@
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    color:white;
+  }
+.servicestopic {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 90px;
+
+color: #FFFFFF;
+
+}
+.servicestopiccontact {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 90px;
+
+color: #686868;
+
+}
+.linecontact {
+    background-color: #686868;
+    width:100px;
+    height:5px;
+    border-radius: 20px;
+}
+.line {
+    background-color: white;
+    width:100px;
+    height:5px;
+    border-radius: 20px;
+}
+.servicessmalltext {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+margin-top:15px;
+color: #ACACAC;
+}
+.servicestoptext {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 38px;
+width: 400px;
+color: #FFFFFF;
+}
+.services-card {
+    margin-top:30px;
+}
+.services-card-title {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+
+color: #606060;
+}
+.services-card-text {
+    
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+margin-top:10px;
+color: #606060;
+}
+.view-details-services {
+    background-color:#037D98;
+    color:white;
+    padding:6px 20px;
+    border-radius: 5px;
+    border:none;
+}
+.servicesdetails {
+    margin-top:50px;
+}
+.servicesimg1 {
+    width:400px;
+    margin-top:50px;
+}
+.servicesptext {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #4E4747;
+}
+.serviceshtopic {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 51px;
+
+color: #4E4747;
+}
+.servicessmalltext {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+letter-spacing: 0.05em;
+
+color: #7a7575;
+}
+.tagsline {
+    width:80%;
+    height:40px;
+    background: rgba(110, 189, 206, 0.19);
+border-radius: 20px;
+margin-top:15px;
+}
+.intext {
+    padding:5px;
+}
+.tagtext {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 26px;
+margin-top:3px;
+margin-left:10px;
+/* identical to box height */
+
+
+color: #094b5a;
+}
+.redright {
+    color:rgb(192, 30, 30);
+   float:right;
+   margin-right:10px;
+   margin-top:5px;
+}
+.alltags {
+    margin-top:30px;
+}
+.servicesdetailsall {
+    margin-left:50px;
+}
+@media screen and (max-width: 1000px) {
+    .servicesdetailsall {
+        margin-left:0;
+        text-align: justify;
+    }
+    .tagsline {
+width:100%;
+    }
+    .servicesmincard {
+        width:100%;
+        margin-right: 0;
+    }
+    .services-card {
+        width:100%;
+    }
+    .responsivecard  {
+        width:100%;
+        margin-right:0;
+    }
+    .detailsofservices {
+        width:100%;
+    }
+}

@@ -1,0 +1,197 @@
+.Profileimgclass {
+    position: relative;
+    height:450px;
+  }
+  
+  
+  .profileimgsmall {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 18px;
+    border: 10px solid #FFFFFF;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .profileimgsmallpic {
+      width:300px;
+      height:300px;
+      border-radius:10px;
+      object-fit: cover;
+      float:left;
+  }
+  
+  .profileimgsmallres {
+  
+  margin-top:50px;
+    font-size: 18px;
+    border: 10px solid #FFFFFF;
+box-sizing: border-box;
+display: none;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .profileimgsmallpicres {
+    
+      border-radius:10px;
+      object-fit: cover;
+    
+  }
+.profilecontent {
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    height:auto;
+    border-radius: 10px;
+    padding:10px;
+}
+.profile-wrapper {
+    background-color: rgba(244, 244, 244, 1);
+}
+.profileName {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 33px;
+margin-top: 20px;
+color: #606060;
+}
+.profileleftdetails{
+    padding:20px;
+}
+.profileleftcontent {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #7e7d7d;
+}
+
+.skillbtn {
+    background: rgba(123, 189, 250, 0.19);
+border-radius: 20px;
+margin-right: 10px;
+margin-top: 20px;
+border:none;
+padding:5px 10px;
+color:rgba(3, 125, 152, 1);
+font-weight: 500;
+}
+.photocount {
+    display: inline;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #7A7A7A;
+
+}
+.liststyle {
+    list-style-type:circle;
+}
+.seeall {
+    float:right;
+    border:none;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 22px;
+background-color: white;
+color: #1C72F2;
+
+}
+.skilltable  {
+    margin-top: 30px;
+}
+.skilltablh {
+   
+width:300px;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #454545;
+
+    border:none;
+}
+.skilltabld {
+    border:none;
+    font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #7A7A7A;
+}
+.filmindustry {
+    font-family: Lora;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+margin-top:30px;
+line-height: 22px;
+text-align: justify;
+
+color: #7a7a7a;
+}
+.topimglist {
+    height:300px;
+    object-fit: cover;
+}
+.topimglist:hover {
+    height:300px;
+    object-fit:scale-down;
+}
+
+@media screen and (max-width: 1000px) {
+    .profileimgsmallpic {
+        border:5px solid white;
+        border-radius:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        object-fit: cover;
+        
+    }
+    .profileimgsmall {
+        float: none;
+        display: none;
+       top:100;
+       left:20%;
+border:none;
+    }
+    .profileimgsmallpicres {
+        border:5px solid white;
+        border-radius:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        height:200px;
+        width:200px;
+        object-fit: cover;
+        
+    }
+    .profileimgsmallres {
+        float: none;
+       display: block;
+       top:100;
+       left:20%;
+
+border:none;
+    }
+    .Profileimgclass {
+        height:350px;
+      }
+}

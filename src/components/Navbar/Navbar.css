@@ -1,0 +1,27 @@
+.cinelogo {
+    height:70px;
+}
+.donate-btn {
+    background: #5B551E;
+border: 1px solid #DBC924;
+padding:5px 10px;
+color:white;
+}
+.nav-item {
+    margin-left: 10px;
+}
+.navbar {
+    width:90%;
+    margin-left:5%;
+    margin-right: 5%;
+    background-color: rgba(246, 246, 246, 1);
+    
+}
+.donatebtntext {
+    color:white;
+    text-decoration: none;
+}
+.donatebtntext:hover {
+    color:rgb(255, 252, 64);
+    text-decoration: none;
+}

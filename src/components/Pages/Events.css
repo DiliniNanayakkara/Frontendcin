@@ -1,0 +1,47 @@
+.event-cards {
+    margin-top:30px;
+}
+.event-title {
+    font-family: Open Sans;
+font-style: normal;
+font-weight:400;
+font-size: 23px;
+line-height: 38px;
+margin-top: 20px;;
+color: #606060;
+}
+.event-text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+    padding:5px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+    
+    color: #606060;
+}
+.greybtn {
+    background: #646464;
+    padding:10px 20px;
+    border:none;
+    color:white;
+    margin-top:30px;
+}
+.eventimg {
+    background-image: url("https://www.cinestarfoundation.com/thumb/Dialog.jpg");
+}
+.event-details {
+    padding : 5px;
+}
+
+@media screen and (max-width: 1000px) {
+.event-cards {
+    width:100%;
+}
+.top-left {
+    display: none;
+}
+}

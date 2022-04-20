@@ -1,0 +1,110 @@
+.Boardheading {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 38px;
+margin-top:50px;
+color: #00404F;
+
+}
+.Boadheadingline {
+    background-color: #00404F;
+    width:100px;
+    border-radius: 30px;
+    height:5px;
+   
+}
+.Boardmembers {
+    margin-top:50px;
+}
+.profileimg {
+  border-radius:50%;
+  height: 150px;
+  width: 150px;
+  padding: 0;
+  object-fit: cover;
+   
+}
+.Aprofileimg {
+    border-radius:50%;
+  height: 120px;
+  width: 120px;
+  padding: 0;
+  object-fit: cover;
+}
+.resBoardmembers {
+    display: none;
+}
+.aName {
+    font-family: Open Sans;
+font-style: normal;
+font-weight:600;
+font-size: 18px;
+line-height: 29px;
+text-align: center;
+color: #363636;
+margin-top: 20px ;
+
+}
+.Name {
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 29px;
+text-align: center;
+color: #363636;
+margin-top: 20px ;
+
+}
+
+.viewprofile{
+    border: none;
+    color:white;
+    background-color: #00404F;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+}
+.viewprobtn{
+    border: none;
+    color:white;
+    background-color: #00404F;
+    text-align: center;
+    justify-content: center;
+   
+}
+.viewprofbtn {
+    padding:  0px 40px;
+}
+.pos {
+    
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 22px;
+text-align:center;
+color: #555555;
+}
+.Artistlist {
+    margin-top:50px;
+}
+@media screen and (max-width: 1000px) { 
+    .bheadingcontainer {
+        text-align: center;
+    }
+    .Boadheadingline {
+display:none;
+    }
+    .resBoardmembers {
+        display: block;
+    }
+    .Boardmembers {
+        display:none;
+    }
+    .Actpro {
+        width:50%;
+    }
+}
